@@ -6,7 +6,7 @@ public class Calculator {
     // psvm - public static void main
     public static void main(String[] args) {
         System.out.println("com.sda.she_likes_java.homework.Calculator");
-        System.out.println("calculating sum of two numbers");
+        System.out.println("calculating sum of two com.sda.she_likes_java.numbers");
         System.out.println("provide first number: ");
         int firstNumber;
         int secondNumber;
@@ -22,7 +22,7 @@ public class Calculator {
 
         // \n - means put a new line here
         System.out.println();
-        System.out.println("\n\n\n calculating the difference of two numbers");
+        System.out.println("\n\n\n calculating the difference of two com.sda.she_likes_java.numbers");
         System.out.println("provide first number: ");
         int varOne;
         int varTwo;
@@ -36,7 +36,7 @@ public class Calculator {
 
 
 
-        System.out.println("calculating the product of two numbers");
+        System.out.println("calculating the product of two com.sda.she_likes_java.numbers");
         System.out.println("provide first number: ");
         int variableOne;
         int variableTwo;
@@ -50,7 +50,7 @@ public class Calculator {
 
 
 
-        System.out.println("calculating the quotient of two numbers");
+        System.out.println("calculating the quotient of two com.sda.she_likes_java.numbers");
         System.out.println("provide first number: ");
         double variablOne;
         double variablTwo;
