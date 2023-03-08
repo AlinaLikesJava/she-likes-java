@@ -3,6 +3,8 @@ package com.sda.she_likes_java.numbers;
 public class IntegerRanges {
 
     public static void main(String[] args) {
+        //alt+enter - rename file if there is a problem with name
+
         System.out.println("Let's see how integers ranges looks like");
         System.out.println("int ranges");
         System.out.println("minimal int number is: " + Integer.MIN_VALUE);
