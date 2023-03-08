@@ -19,6 +19,7 @@ public class Calculator {
         System.out.println("You provided number: " + secondNumber);
         int sum = firstNumber + secondNumber;
         System.out.println("Sum is: " + sum);
+
         // \n - means put a new line here
         System.out.println();
         System.out.println("\n\n\n calculating the difference of two numbers");
