@@ -1,5 +1,5 @@
 // packages use reversed domain names
-package com.sda.she_likes_java.homework;
+package com.sda.she_likes_java;
 
 public class Main {
     public static void main(String[] args) {
