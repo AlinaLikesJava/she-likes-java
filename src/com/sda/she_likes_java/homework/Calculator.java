@@ -26,7 +26,7 @@ public class Calculator {
         System.out.println("provide first number: ");
         int varOne;
         int varTwo;
-        varOne  = inputReader.nextInt();
+        varOne = inputReader.nextInt();
         System.out.println("You provided number: " + varOne);
         System.out.println("Provide second number: ");
         varTwo = inputReader.nextInt();
@@ -35,12 +35,11 @@ public class Calculator {
         System.out.println("Difference is: " + difference);
 
 
-
         System.out.println("calculating the product of two com.sda.she_likes_java.numbers");
         System.out.println("provide first number: ");
         int variableOne;
         int variableTwo;
-        variableOne  = inputReader.nextInt();
+        variableOne = inputReader.nextInt();
         System.out.println("You provided number: " + variableOne);
         System.out.println("Provide second number: ");
         variableTwo = inputReader.nextInt();
@@ -49,12 +48,11 @@ public class Calculator {
         System.out.println("Product is: " + product);
 
 
-
         System.out.println("calculating the quotient of two com.sda.she_likes_java.numbers");
         System.out.println("provide first number: ");
         double variablOne;
         double variablTwo;
-        variablOne  = inputReader.nextInt();
+        variablOne = inputReader.nextInt();
         System.out.println("You provided number: " + variablOne);
         System.out.println("Provide second number: ");
         variablTwo = inputReader.nextInt();
