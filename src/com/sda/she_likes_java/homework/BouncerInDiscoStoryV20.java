@@ -27,16 +27,17 @@ public class BouncerInDiscoStoryV20 {
             System.out.println("The people try again. They come up to the old bouncer");
             System.out.println("The old bouncer asks,");
             System.out.println("Hi, how old are you? ");
-        int age2 = inputReader.nextInt();
-        System.out.println("What is your height? ");
-        int height2 = inputReader.nextInt();
-        System.out.println("Can you sing well? ");
-        boolean canSing2 = inputReader.nextBoolean();
+            int age2 = inputReader.nextInt();
+            System.out.println("What is your height? ");
+            int height2 = inputReader.nextInt();
+            System.out.println("Can you sing well? ");
+            boolean canSing2 = inputReader.nextBoolean();
 
-        boolean isAllowedToParty2 = age2 >= 18 || height2 >= 190 || canSing2;
+            boolean isAllowedToParty2 = age2 >= 18 || height2 >= 190 || canSing2;
 
-        if (isAllowedToParty2) {
-            System.out.println("Welcome to the club!");
+            if (isAllowedToParty2) {
+                System.out.println("Welcome to the club!");
+
         } else {
             System.out.println(declineMessage);
         }
