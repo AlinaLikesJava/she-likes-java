@@ -64,4 +64,4 @@ import java.util.Scanner;
             return age >= 18 || height > 180 || isAbleToSingWell == true;
         }
     }
-}
+
