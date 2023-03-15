@@ -14,16 +14,26 @@ public class GuessTheNumberGameWithBreak {
 
         Scanner inputReader = new Scanner(System.in);
         int userAnswer;
+        boolean guessed = false;
+
+
         System.out.println("Play game with me:)");
         do {
-            if (numberOfTrials <= 0) {
-                break;
-            }
             System.out.println("Guess a number between 1 and 10");
             userAnswer = inputReader.nextInt();
             numberOfTrials--;
-        } while (userAnswer != someRandomNumber);
+            guessed = userAnswer == someRandomNumber;
 
-        System.out.println("Great, You win!!!");
+        } while (!guessed && numberOfTrials >0);
+
+        if (guessed) {
+            System.out.println("Great! You won!");
+        }
+        else {
+            System.out.println("You lost :(");
+
+        }
+
+
     }
 }
