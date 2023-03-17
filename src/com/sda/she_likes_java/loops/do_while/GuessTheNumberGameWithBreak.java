@@ -1,39 +1,35 @@
 package com.sda.she_likes_java.loops.do_while;
 
-import java.util.Random;
-import java.util.Scanner;
 
-public class GuessTheNumberGameWithBreak {
+ import java.util.Random;
+ import java.util.Scanner;
 
-    public static void main(String[] args) {
-        Random numberGenerator = new Random();
-        int someRandomNumber = numberGenerator.nextInt(20);
-        int numberOfTrials = 8;
+    public class GuessTheNumberGameWithBreak {
 
-        //System.out.println("random number provided by java is: " + someRandomNumber);
+        public static void main(String[] args) {
+            Random numberGenerator = new Random();
+            int someRandomNumber = numberGenerator.nextInt(20);
+            int numberOfTrials = 8;
 
-        Scanner inputReader = new Scanner(System.in);
-        int userAnswer;
-        boolean guessed = false;
+            Scanner inputReader = new Scanner(System.in);
+            int userAnswer;
+            System.out.println("Play game with me:)");
+            do {
+                System.out.println("Guess a number between 1 and 20");
+                userAnswer = inputReader.nextInt();
+                numberOfTrials--;
+                if (numberOfTrials <= 0) {
+                    System.out.println("No more trials...");
+                    break;
+                }
+            } while (userAnswer != someRandomNumber);
 
-
-        System.out.println("Play game with me:)");
-        do {
-            System.out.println("Guess a number between 1 and 10");
-            userAnswer = inputReader.nextInt();
-            numberOfTrials--;
-            guessed = userAnswer == someRandomNumber;
-
-        } while (!guessed && numberOfTrials >0);
-
-        if (guessed) {
-            System.out.println("Great! You won!");
+            if (userAnswer == someRandomNumber) {
+                System.out.println("Great, You win!!!");
+            } else {
+                System.out.println("You've lost:(");
+            }
         }
-        else {
-            System.out.println("You lost :(");
-
-        }
-
-
     }
-}
+
+
