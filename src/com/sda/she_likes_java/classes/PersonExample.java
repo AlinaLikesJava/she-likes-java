@@ -18,6 +18,7 @@ public class PersonExample {
         me.name = "Alina";
         Person you = new Person();
         you.name = "Maya";
+        System.out.println();
 
 
         System.out.println("My name currently is: " + me.name);
