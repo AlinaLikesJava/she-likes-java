@@ -5,6 +5,8 @@ public class Person {
 String name;
 String surname;
 int age;
-String address;
+com.sda.she_likes_java.classes.Address address;
+
+
 
 }
