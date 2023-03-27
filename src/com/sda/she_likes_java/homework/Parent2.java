@@ -1,6 +1,6 @@
 package com.sda.she_likes_java.homework;
 
-import com.sda.she_likes_java.classes.Address;
+import com.sda.she_likes_java.classes.PersonExample;
 import com.sda.she_likes_java.classes.Person;
 
 /*
@@ -18,11 +18,11 @@ public class Parent2 {
     Person firstChild;
     Person secondChild;
 
-    Address address;
+    PersonExample.Address address;
 
 
     public static void main(String[] args) {
-        Address someAddress = new Address();
+        PersonExample.Address someAddress = new PersonExample.Address();
         someAddress.country = "Latvia";
     }
 }

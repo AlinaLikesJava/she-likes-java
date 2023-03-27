@@ -1,6 +1,6 @@
 package com.sda.she_likes_java.homework;
 
-import com.sda.she_likes_java.classes.Address;
+import com.sda.she_likes_java.classes.PersonExample;
 import com.sda.she_likes_java.classes.Person;
 
 /*
@@ -18,7 +18,7 @@ public class Parent {
     Person firstChild;
     Person secondChild;
 
-    Address address;
+    PersonExample.Address address;
 
 
 
@@ -30,8 +30,8 @@ public class Parent {
         father.name = "Rudolfs";
         father.surname = "Buda";
 
-        Address myFirstAddress = new Address();
-        myFirstAddress.street = "Graudu str.";
+        PersonExample.Address myFirstAddress = new PersonExample.Address();
+        myFirstAddress.street = "Graud str.";
 
     }
 }
