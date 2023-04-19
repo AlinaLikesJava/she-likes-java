@@ -1,5 +1,5 @@
 
-        package com.sda.she_likes_java.name_clash;
+package com.sda.she_likes_java.name_clash;
 import java.util.Date; // I’m able to refer to the class with short name
 //import java.sql.Date;
         public class NamesClashes {
@@ -15,5 +15,3 @@ import java.util.Date; // I’m able to refer to the class with short name
             }
         }
 
-    }
-}
