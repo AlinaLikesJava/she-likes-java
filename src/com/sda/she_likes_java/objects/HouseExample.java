@@ -5,7 +5,7 @@ public class HouseExample {
     public static void main(String[] args) {
         House myHouse = new House(4, 2);
         myHouse.setNumberOfFloors(2);
-        System.out.println("I've got new house: " + myHouse);
+        System.out.println("I've got a new house: " + myHouse);
 
         System.out.println("Currently my house has got " + myHouse.getNumberOfRooms() + " rooms");
         System.out.println("I need more rooms...");
